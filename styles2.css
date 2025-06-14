@@ -1,0 +1,21 @@
+.hero {
+    background: url('imagen1.jpg') no-repeat center center;
+    background-size: cover;
+}
+/* Por que escogernos - Features */
+.feature:nth-child(1) { /* Tecnologia Biometrica */
+    background: url('imagen2.jpg') no-repeat center center;
+    background-size: cover;
+}
+.feature:nth-child(2) { /* Instalacion Sencilla */
+    background: url('imagen3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.feature:nth-child(3) { /* Adaptable a cualquier establecimiento */
+    background: url('imagen4.jpg') no-repeat center center;
+    background-size: cover;
+}
+.feature:nth-child(4) { /* Control desde su celular */
+    background: url('imagen5.jpg') no-repeat center center;
+    background-size: cover;
+}
