@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const userExists = users.some(user => user.email === email && user.password === password);
             if (userExists) {
-                window.location.href = "VNPaginaPrincipal.html";
+                window.location.href = "#";
             } else {
                 showError(errorMessage, "Correo o contraseña incorrectos");
             }
