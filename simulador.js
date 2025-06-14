@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 localStorage.setItem('registeredUsers', JSON.stringify(users));
                 alert("¡Registro exitoso! Redirigiendo...");
-                window.location.href = "VNInicioSesion.html";
+                window.location.href = "inicioSesion.html";
             }
         });
     }
